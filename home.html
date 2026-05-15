@@ -8,8 +8,8 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav>
-        <ul class="navbar">
+    <nav id="nav">
+        <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="">Contact</a></li>
@@ -32,33 +32,35 @@
      <section class="about" id="about">
         <div class="section-label">01 - About Me</div>
         <div class="about-grid">
-            <h2 class="about-heading reveal">Using trends and memes as fuel for creative projects.</h2>
-            <p class="about-text reveal">Hi, I'm Aurelia Faren — an undergraduate Computer Science student in the Global Class program at BINUS University.</p>
-        </div>
-        <div class="skill-panel reveal">
-            <div class="section-label">Skills &amp; tools</div>
+            <div>
+                <h2 class="about-heading reveal">Using <em>trends</em> and <em>memes</em> as fuel for creative projects.</h2>
+                <p class="about-text reveal">Hi, I'm Aurelia Faren — an undergraduate Computer Science student in the Global Class program at BINUS University.</p>
+            </div>
+            
+            <div class="skill-panel reveal">
+                <div class="section-label">Skills &amp; tools</div>
 
-            <div class="skill-row">
-                <span class="skill-name">UI / Figma</span>
-                <div class="skill-bar-wrap"><div class="skill-bar accent2" data-pct="85"></div></div>
-                <span class="skill-pct">85%</span>
-            </div>
-            <div class="skill-row">
-                <span class="skill-name">HTML / CSS / JS</span>
-                <div class="skill-bar-wrap"><div class="skill-bar accent2" data-pct="85"></div></div>
-                <span class="skill-pct">80%</span>
-            </div>
-            <div class="skill-row">
-                <span class="skill-name">Python</span>
-                <div class="skill-bar-wrap"><div class="skill-bar accent2" data-pct="75"></div></div>
-                <span class="skill-pct">75%</span>
-            </div>
-            <div class="skill-row">
-                <span class="skill-name">Laravel / PHP</span>
-                <div class="skill-bar-wrap"><div class="skill-bar accent2" data-pct="75"></div></div>
-                <span class="skill-pct">65%</span>
-            </div>
-        </div>  
+                <div class="skill-row">
+                    <span class="skill-name">UI / Figma</span>
+                    <div class="skill-bar-wrap"><div class="skill-bar accent2" data-pct="85"></div></div>
+                    <span class="skill-pct">85%</span>
+                </div>
+                <div class="skill-row">
+                    <span class="skill-name">HTML / CSS / JS</span>
+                    <div class="skill-bar-wrap"><div class="skill-bar accent2" data-pct="85"></div></div>
+                    <span class="skill-pct">80%</span>
+                </div>
+                <div class="skill-row">
+                    <span class="skill-name">Python</span>
+                    <div class="skill-bar-wrap"><div class="skill-bar accent2" data-pct="75"></div></div>
+                    <span class="skill-pct">75%</span>
+                </div>
+                <div class="skill-row">
+                    <span class="skill-name">Laravel / PHP</span>
+                    <div class="skill-bar-wrap"><div class="skill-bar accent2" data-pct="75"></div></div>
+                    <span class="skill-pct">65%</span>
+                </div>
+            </div>  
      </section>
      
      <!-- Projects -->
@@ -66,17 +68,49 @@
         <div class="section-label">02 - Projects</div>
         <div class="projects-grid">
 
-            <!-- Projects -->
+            <!-- Project 1-->
              <div class="project-card feature reveal">
                 <div>
-                    <div class="project-num">Project 01 - projectTitle</div>
+                    <div class="project-num">Project 01</div>
                     <div class="project-tags">
                         <span class="tag accent">HTML</span>
                         <span class="tag accent">CSS</span>
                         <span class="tag accent">JS</span>
                     </div>
-                    
+                    <h3 class="project-title">Time Traveler's Journal</h3>
+                    <p class="project-desc">Time Traveler's Journal is an interactive history-themed website that explores famous historical eras 
+                        through immersive storytelling, engaging visuals, and informative content.</p>
+                    <a href="#" class="project-link">
+                        View project
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
                 </div>
+                <div class="project-visual pv-1">
+                    <div class="pv-dots"></div>
+                    <div class="pv-lavel">TIME TRAVELER'S JOURNAL</div>
+                </div>
+             </div>
+
+             <!-- Project 2 -->
+            <div class="project-card feature reveal">
+                <div>
+                    <div class="project-num">Project 01</div>
+                    <div class="project-tags">
+                        <span class="tag accent">HTML</span>
+                        <span class="tag accent">CSS</span>
+                        <span class="tag accent">JS</span>
+                    </div>
+                    <h3 class="project-title">Time Traveler's Journal</h3>
+                    <p class="project-desc">Time Traveler's Journal is an interactive history-themed website that explores famous historical eras 
+                        through immersive storytelling, engaging visuals, and informative content.</p>
+                    <a href="#" class="project-link">
+                        View project
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>                    </a>
+                    </div>
+                    <div class="project-visual pv-1">
+                        <div class="pv-dots"></div>
+                        <div class="pv-lavel">TIME TRAVELER'S JOURNAL</div>
+                    </div>
              </div>
         </div>
      </section>
